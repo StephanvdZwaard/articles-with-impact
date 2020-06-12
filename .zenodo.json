@@ -1,0 +1,26 @@
+{
+    "description": "No description provided.", 
+    "license": "other-open", 
+    "title": "StephanvdZwaard/articles-with-impact: Supplemental Table S1", 
+    "version": "v1.0.0", 
+    "upload_type": "software", 
+    "publication_date": "2020-06-12", 
+    "creators": [
+        {
+            "name": "StephanvdZwaard"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/StephanvdZwaard/articles-with-impact/tree/v1.0.0", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.3890953", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
