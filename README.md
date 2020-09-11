@@ -37,9 +37,10 @@ This project is a collaboration between the [Leiden Institute of Advanced Comput
  
  <h2> Archive </h2>
  
+ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4023830.svg)](https://doi.org/10.5281/zenodo.4023830)
+
  <hr>
  
-
 <h3> Main script </h3>
 
 The main script is used to run the entire analysis used to obtain the results in this study. This script calls other subfunctions and scripts that are located within the `scripts` subdirectory.
@@ -52,8 +53,8 @@ The main script is used to run the entire analysis used to obtain the results in
  **Version:**      1.0                                                                                                        
  **R.version:**    3.5.1 (2018-07-02)                                                                                         
                                                                                                                           
- **Publication:**  vd Zwaard et al. 2020. Articles with impact: insights into 10 years of research with machine learning      
- doi:          [10.1152/japplphysiol.00489.2020](https://journals.physiology.org/doi/abs/10.1152/japplphysiol.00489.2020)               
+ **Publication:**  vd Zwaard et al. 2020. Articles with impact: insights into 10 years of research with machine learning    
+ doi:          [10.1152/japplphysiol.00489.2020](https://journals.physiology.org/doi/abs/10.1152/japplphysiol.00489.2020)
  <hr>      
  
 <h3> RStudio project </h3>
