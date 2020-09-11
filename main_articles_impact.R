@@ -181,7 +181,7 @@
   
   # Save modeling results
   save(ranger_model_altmetrics, ranger_model_downloads, ranger_model_citations,
-       file = paste0(getwd(),"/data/RF-models_TEST_",format(Sys.Date(),"%m%y"),".RData"))
+       file = paste0(getwd(),"/data/RF-models_",format(Sys.Date(),"%m%y"),".RData"))
   
   
 # ------------------------------------------------------------------------------------------------------------------------ #
@@ -189,14 +189,7 @@
 # ------------------------------------------------------------------------------------------------------------------------ #
   
   
-    # Rerun modeling with no of downloads from HTML & PDF instead of only HTML downloads from the previous year.
-    # After contact with the journal's webmaster we received these number for all the DOI's included in this study.
-    # Therefore, updated data_features, data_model and ranger_models should be used (as loaded below)
-    
-    # source("scripts/rerun_downloads_analysis.R") 
-  
-  
-    # Load correct data
+    # Load data
     load(paste0(getwd(),"/data/RF-models_0820.RData"))
     load(paste0(getwd(),"/data/data_features_0820.RData"))
 
