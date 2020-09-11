@@ -6,7 +6,7 @@
  
   <hr>
   
-###Abstract 
+### Abstract 
 
 Worldwide scientific output is growing faster and faster. Academics should not only publish much and fast, but also publish research with impact. The aim of this study is to use machine learning to investigate characteristics of articles that were published in the Journal of Applied Physiology between 2009 and 2018, and characterize high-impact articles. Article impact was assessed for 4,531 publications by three common impact metrics: the Altmetric Attention Scores, downloads and citations. Additionally, a broad collection of (more than 200) characteristics was collected from the article’s title, abstract, authors, keywords, publication, and article engagement. We constructed random forest (RF) regression models to predict article impact and articles with the highest impact (top-25% and top-10% for each impact metric), which were compared to a naïve baseline method. RF models outperformed the baseline models when predicting the impact of unseen articles (p<0.001 for each impact metric). Also, RF models predicted top-25% and top-10% high-impact articles with a high accuracy. Moreover, RF models revealed important article characteristics. Higher impact was observed for articles about exercise, training, performance and V̇O2max, reviews, human studies, articles from large collaborations, longer articles with many references and high engagement by scientists, practitioners and public or via news outlets and videos. Lower impact was shown for articles about respiratory physiology or sleep apnea, editorials, animal studies, and titles with a question mark or a reference to places or individuals. In summary, research impact can be predicted and better understood using a combination of article characteristics and machine learning.
 
@@ -40,7 +40,7 @@ This project is a collaboration between the [Leiden Institute of Advanced Comput
  <hr>
  
 
-<h4> Main script </h4>
+<h3> Main script </h3>
 
 The main script is used to run the entire analysis used to obtain the results in this study. This script calls other subfunctions and scripts that are located within the `scripts` subdirectory.
 
@@ -56,7 +56,7 @@ The main script is used to run the entire analysis used to obtain the results in
  doi:          [10.1152/japplphysiol.00489.2020](https://journals.physiology.org/doi/abs/10.1152/japplphysiol.00489.2020)               
  <hr>      
  
-<h4> RStudio project </h4>
+<h3> RStudio project </h3>
 
 The RStudio project that is associated with the analysis of this publication.
                                                                                                                           
